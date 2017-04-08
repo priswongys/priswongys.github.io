@@ -31,8 +31,6 @@
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
-					
-				<!-- </div> -->
 			</div>
 		</nav>
 
@@ -271,13 +269,15 @@
 		// toggle class show on the ul inside of the menu
 </script>
 
-<!-- <script>
-	if ($('.scrolldown')[0]){
-			$('.scrolldown').click(function(){
-				$('html,body').animate({scrolldown:0}, 400);
-			})
-	}
-</script> -->
+<script>
+$(document).on('click', '.nav-actions a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
+</script>
 
 </body>
 </html>
