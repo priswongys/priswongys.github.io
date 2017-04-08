@@ -39,6 +39,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .socialicons {
 	padding-left: 50px;
+	flex: 1;
+}
+
+.nav-actions {
+	flex: 1;
+	justify-content: flex-end;
 }
 
 nav p {
@@ -88,20 +94,25 @@ section {
 }
 
 .maintitle {
-	position: absolute;
+	/*position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	transform: translateY(120%);
+	transform: translateY(120%);*/
+	margin: auto;
 	color: #fff;
 	height: 30vh;
+}
+
+.slider {
+	display: flex;
 }
 
 .slider i {
 	font-size:50px;
 	color: #fff;
-	margin: 200px auto auto auto;
+	margin: 150px auto auto auto;
 }
 
 
@@ -132,6 +143,10 @@ h3 {
 	background: #505499;
 	display: inline-block;
 	padding: 5px 15px;
+}
+
+.portfolio h3 {
+	margin: 5px auto 5px auto;
 }
 
 h4 {
@@ -251,6 +266,7 @@ main a, .interests a, .sideprojects a {
 	width: 50%;
 	height: 100%;
 	margin-top: 35px;
+	object-fit: cover;
 }
 
 .description-right {
@@ -272,6 +288,10 @@ main a, .interests a, .sideprojects a {
 
 a:hover {
 	border-bottom: none;
+}
+
+.galleryItem {
+	height: 300px;
 }
 
 
@@ -437,5 +457,9 @@ footer div {
 
 	.banner h1, .bannerui h1{
 		transform: translateY(125%);
+	}
+
+	.headwrapper p {
+		padding-left: 50px;
 	}
 }

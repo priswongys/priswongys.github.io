@@ -67,18 +67,16 @@
 				
 				</p>
 
-				<div class="gallery">
-					<div class="galleryItem"><img src="styles/mockup.jpg" alt=""></div>
-					<div class="galleryItem"><img src="styles/toronto.jpg" alt=""></div>
-					<div class="galleryItem"><img src="styles/weatherpanda.jpg" alt=""></div>
-				</div>
 			</div>
-
-			
-
 		</div>
 
 	</main>
+
+	 	<div class="gallery wrapper">
+			<div class="galleryItem"><img src="styles/mockup.jpg" alt=""></div>
+			<div class="galleryItem"><img src="styles/toronto.jpg" alt=""></div>
+			<div class="galleryItem"><img src="styles/weatherpanda.jpg" alt=""></div>
+		</div> 
 
 	<footer>
 		<div>
@@ -106,8 +104,8 @@
 	<script>
 		$(document).ready(function(){
 			$('.gallery').flickity({
-				//contain: true,
-				//wrapAround: true
+				contain: true,
+				wrapAround: true
 				})
 		//this is what we want to happen
 		});
