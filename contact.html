@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Inconsolata" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<title>Priscilla Wong 🙄</title>
+</head>
+
+<body>
+	<nav id="top">
+		<div class="headwrapper flex-container nav-main">
+			<div class="socialicons">
+				<span>
+					<span class="insta"><a href="https://www.instagram.com/pwonggggg/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+					<span><a href="https://www.linkedin.com/in/priswong/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+				</span>
+			</div>
+
+			<p><a href="index.html">Priscilla Wong</a></p>
+
+			<div class="nav-actions flex-container">
+			<p class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></p>
+				<ul class="flex-container">
+						<li><a href="index.html#about">About</a></li>
+						<li><a href="index.html#portfolioo">Portfolio</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+
+	<header class="bannerc">
+		<div>
+			<h1>Contact Me</h1>
+<!-- 			<p>[Still Under Construction]</p> -->
+		</div>
+	</header>
+
+
+	<main>
+		<div class="wrapper flex-container">
+		<div class="description-left">
+			<img src="styles/profile.jpg" width='500' height='500' alt="profile">
+		</div>
+		
+			<div class="description-right">
+
+				<h3>Contact Me</h3>
+				<h4>Give me a shout!</h4>
+				<p>
+				Shoot me a message and I'll try to get back to you as soon as possible!
+				</p>
+				
+				<div class="container">  
+				  <form id="contact" action="" method="post">
+<!-- 				    <h3>Quick Contact</h3>
+				    <h4>Contact us today, and get reply with in 24 hours!</h4> -->
+				    <fieldset>
+				      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+				    </fieldset>
+				    <fieldset>
+				      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+				    </fieldset>
+				    <fieldset>
+				      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+				    </fieldset>
+				    <fieldset>
+				      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+				    </fieldset>
+				  </form>
+				 
+				  </div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div>
+			<h3>Thank you for looking!</h3>
+			<p>[ Contact me at priswongys@gmail.com ]</p>
+		</div>
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+		$(function(){
+	          $('.hamburger').on('click', function(){
+	            $('.nav-actions').toggleClass('overlay'); 
+	            $('.nav-actions ul').toggleClass('show');
+	          });
+	    });
+		// toggle class overlay on the menu
+		// toggle class show on the ul inside of the menu
+</script>
+
+</body>
+</html>
