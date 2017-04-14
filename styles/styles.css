@@ -148,10 +148,8 @@ h3 {
 h4 {
 	font-family: 'Montserrat', sans-serif;
 	color: #505499;
-	font-size: 21px;
-	letter-spacing: 1.85px;
-/*	text-transform: uppercase;*/
-	font-weight: 600;
+	font-size: 22px;
+	letter-spacing: 1.5px;
 	margin: 45px 0 0 auto;
 }
 
@@ -167,9 +165,8 @@ h5, h5 li {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	letter-spacing: 0.25px;
-	font-weight: 600;
-	line-height: 1.55rem;
-	color: #333;
+	line-height: 1.45rem;
+	color: #555;
 }
 
 
