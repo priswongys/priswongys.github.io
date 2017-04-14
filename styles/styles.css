@@ -165,9 +165,9 @@ h4 {
 
 h5, h5 li {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	letter-spacing: 0.25px;
-	font-weight: 800;
+	font-weight: 600;
 	line-height: 1.55rem;
 	color: #333;
 }
@@ -178,7 +178,7 @@ p, li {
 	font-size: 15px;
 	line-height: 1.4rem;
 	color: #666667;
-	letter-spacing: 0.3px;
+	letter-spacing: 0.2px;
 }
 
 main a, .interests a, .sideprojects a {
