@@ -135,10 +135,10 @@ h3 {
 	color: #fff;
 	letter-spacing: 4px;
 	margin: 50px auto 5px auto;
-	font-size: 20px;
+	font-size: 23px;
 	background: #505499;
 	display: inline-block;
-	padding: 5px 15px;
+	padding: 5px 25px;
 }
 
 .portfolio h3 {
@@ -148,9 +148,9 @@ h3 {
 h4 {
 	font-family: 'Montserrat', sans-serif;
 	color: #505499;
-	font-size: 19px;
-	letter-spacing: 1.75px;
-	text-transform: uppercase;
+	font-size: 21px;
+	letter-spacing: 1.85px;
+/*	text-transform: uppercase;*/
 	font-weight: 600;
 	margin: 45px 0 0 auto;
 }
@@ -165,18 +165,20 @@ h4 {
 
 h5, h5 li {
 	font-family: 'Montserrat', sans-serif;
-	color: #242424;
-	font-size: 13px;
-	letter-spacing: 0.5px;
+	font-size: 15px;
+	letter-spacing: 0.25px;
+	font-weight: 800;
+	line-height: 1.55rem;
+	color: #333;
 }
 
 
 p, li {
 	font-family: 'Inconsolata', sans-serif;
-	font-size: 14.5px;
-	line-height: 1.3rem;
+	font-size: 15px;
+	line-height: 1.4rem;
 	color: #666667;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.3px;
 }
 
 main a, .interests a, .sideprojects a {
@@ -284,6 +286,7 @@ main a, .interests a, .sideprojects a {
 
 a:hover {
 	border-bottom: none;
+	font-weight: 600;
 }
 
 .galleryItem {
