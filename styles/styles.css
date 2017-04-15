@@ -129,13 +129,13 @@ h2 {
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	text-transform: uppercase;
 /*	color: #505499;*/
 	color: #fff;
-	letter-spacing: 4px;
+	letter-spacing: 5px;
 	margin: 50px auto 5px auto;
-	font-size: 23px;
+	font-size: 28px;
 	background: #505499;
 	display: inline-block;
 	padding: 5px 25px;
@@ -171,9 +171,9 @@ h5, h5 li {
 
 
 p, li {
-	font-family: 'Inconsolata', sans-serif;
-	font-size: 15px;
-	line-height: 1.4rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 1.5rem;
 	color: #666667;
 	letter-spacing: 0.2px;
 }
@@ -182,7 +182,7 @@ main a, .interests a, .sideprojects a {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	color: #F24F43;
 	border-bottom: 1px solid #F24F43;
 }
