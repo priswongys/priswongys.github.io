@@ -130,13 +130,13 @@ h2 {
 }
 
 h3 {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	text-transform: uppercase;
 /*	color: #505499;*/
 	color: #fff;
 	letter-spacing: 5px;
 	margin: 50px auto 5px auto;
-	font-size: 28px;
+	font-size: 23px;
 	background: #505499;
 	display: inline-block;
 	padding: 5px 25px;
@@ -147,16 +147,16 @@ h3 {
 }
 
 h4 {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	color: #505499;
 	font-size: 22px;
-	letter-spacing: 1.5px;
+/*	letter-spacing: 1.5px;*/
 	margin: 45px 0 0 auto;
-	text-transform: uppercase;
+	font-weight: 800;
 }
 
 .experience .job h5 {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
@@ -164,20 +164,21 @@ h4 {
 
 
 h5, h5 li {
-	font-family: 'Inconsolata', sans-serif;
-	font-size: 17px;
-	letter-spacing: 0.25px;
-	line-height: 1.45rem;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 16px;
+/*	letter-spacing: 0.25px;*/
+	line-height: 1.55rem;
 	color: #555;
 }
 
 
 p, li {
-	font-family: 'Inconsolata', sans-serif;
-	font-size: 14px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 13px;
 	line-height: 1.5rem;
 	color: #666667;
 	letter-spacing: 0.2px;
+	font-weight: 200;
 }
 
 main a, .interests a, .sideprojects a {
