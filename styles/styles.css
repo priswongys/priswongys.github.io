@@ -118,15 +118,17 @@ section {
 
 
 h1 {
-	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
 	line-height: 8px;
-	font-size: 60px;
+	font-size: 50px;
 	color: #fff;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 20px;
 	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 200;
 }
 
 h3 {
@@ -183,11 +185,11 @@ p, li {
 
 main a, .interests a, .sideprojects a {
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	font-size: 14px;
 /*	text-transform: uppercase;*/
 	color: #F24F43;
-	border-bottom: 1px solid #F24F43;
+	border-bottom: 2px solid #F24F43;
 }
 
 
