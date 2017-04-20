@@ -113,7 +113,7 @@ section {
 
 .slider i {
 	font-size:50px;
-	color: #fff;
+	color: #000;
 	margin: 120px auto auto auto;
 }
 
@@ -122,11 +122,12 @@ h1 {
 	font-family: 'Roboto Mono', monospace;
 	line-height: 8px;
 	font-size: 70px;
+	color: #000;
 }
 
 h2 {
 	font-size: 20px;
-	color: #fff;
+	color: #000;
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 200;
 }
