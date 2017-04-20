@@ -100,13 +100,14 @@ section {
 	right: 0;
 	bottom: 0;
 	transform: translateY(120%);*/
-	margin: auto;
+	margin: auto auto auto 300px;
 	color: #fff;
 	height: 30vh;
 }
 
 .slider {
 	display: flex;
+	text-align: left;
 }
 
 .slider i {
@@ -120,7 +121,7 @@ h1 {
 	text-transform: uppercase;
 	line-height: 8px;
 	font-size: 70px;
-	color: #fff;
+	color: #1620ce;
 }
 
 h2 {
@@ -129,16 +130,17 @@ h2 {
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
+	font-family: 'Roboto Mono', sans-serif;
+/*	text-transform: uppercase;*/
 /*	color: #505499;*/
-	color: #fff;
-	letter-spacing: 4px;
+	color: #111;
+/*	letter-spacing: 4px;*/
 	margin: 50px auto 5px auto;
-	font-size: 23px;
-	background: #505499;
+	font-size: 45px;
+/*	background: #505499;*/
 	display: inline-block;
-	padding: 5px 25px;
+	padding: 5px 25px 5px 0px;
+	border-bottom: 3px solid #111;
 }
 
 .portfolio h3 {
@@ -146,10 +148,10 @@ h3 {
 }
 
 h4 {
-	font-family: 'Montserrat', sans-serif;
-	color: #505499;
+	font-family: 'Roboto Mono', monospace;
+	color: #1620ce;
 	font-size: 22px;
-	letter-spacing: 1.5px;
+	font-weight: 800;
 	margin: 45px 0 0 auto;
 }
 
@@ -171,11 +173,10 @@ h5, h5 li {
 
 
 p, li {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 15px;
-	line-height: 1.4rem;
-	color: #666667;
-	letter-spacing: 0.2px;
+	line-height: 1.7rem;
+	color: #111;
 }
 
 main a, .interests a, .sideprojects a {
