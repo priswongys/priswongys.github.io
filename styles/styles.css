@@ -188,6 +188,7 @@ main a, .interests a, .sideprojects a {
 	text-transform: uppercase;
 	color: #F24F43;
 	letter-spacing: 4px;
+	font-weight: 800;
 }
 
 
