@@ -139,7 +139,8 @@ h3 {
 	font-size: 45px;
 	display: inline-block;
 	padding: 5px 25px 5px 0px;
-	border-bottom: 3px solid #111;
+	border-bottom: 5px solid #111;
+	line-height: 0.9;
 }
 
 .portfolio h3 {
@@ -187,7 +188,6 @@ main a, .interests a, .sideprojects a {
 	text-transform: uppercase;
 	color: #F24F43;
 	letter-spacing: 4px;
-	border-bottom: 2px solid #F24F43;
 }
 
 
@@ -273,7 +273,7 @@ main a, .interests a, .sideprojects a {
 }
 
 .slider p {
-	color: #fff;
+	color: #000;
 }
 
 .portfolio {
