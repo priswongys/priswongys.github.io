@@ -121,13 +121,8 @@ section {
 h1 {
 	font-family: 'Roboto Mono', monospace;
 	line-height: 8px;
-<<<<<<< HEAD
 	font-size: 70px;
 	color: #1620ce;
-=======
-	font-size: 50px;
-	color: #fff;
->>>>>>> origin/master
 }
 
 h2 {
@@ -139,20 +134,9 @@ h2 {
 
 h3 {
 	font-family: 'Roboto Mono', sans-serif;
-<<<<<<< HEAD
-/*	text-transform: uppercase;*/
-/*	color: #505499;*/
 	color: #111;
-/*	letter-spacing: 4px;*/
-=======
-	text-transform: uppercase;
-/*	color: #505499;*/
-	color: #fff;
-	letter-spacing: 5px;
->>>>>>> origin/master
 	margin: 50px auto 5px auto;
 	font-size: 45px;
-/*	background: #505499;*/
 	display: inline-block;
 	padding: 5px 25px 5px 0px;
 	border-bottom: 3px solid #111;
@@ -163,17 +147,10 @@ h3 {
 }
 
 h4 {
-<<<<<<< HEAD
 	font-family: 'Roboto Mono', monospace;
 	color: #1620ce;
 	font-size: 22px;
 	font-weight: 800;
-=======
-	font-family: 'Roboto Mono', sans-serif;
-	color: #505499;
-	font-size: 22px;
-/*	letter-spacing: 1.5px;*/
->>>>>>> origin/master
 	margin: 45px 0 0 auto;
 	font-weight: 800;
 }
@@ -196,19 +173,11 @@ h5, h5 li {
 
 
 p, li {
-<<<<<<< HEAD
 	font-family: 'Roboto Mono', monospace;
 	font-size: 15px;
 	line-height: 1.7rem;
 	color: #111;
-=======
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: 13px;
-	line-height: 1.5rem;
-	color: #666667;
-	letter-spacing: 0.2px;
-	font-weight: 200;
->>>>>>> origin/master
+
 }
 
 main a, .interests a, .sideprojects a {
