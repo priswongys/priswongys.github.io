@@ -176,7 +176,7 @@ p, li {
 	font-family: 'Roboto Mono', monospace;
 	font-size: 15px;
 	line-height: 1.7rem;
-	color: #111;
+	color: #555;
 
 }
 
@@ -186,7 +186,8 @@ main a, .interests a, .sideprojects a {
 	font-size: 14px;
 /*	text-transform: uppercase;*/
 	color: #F24F43;
-	border-bottom: 2px solid #F24F43;
+	text-decoration: underline;
+/*	border-bottom: 2px solid #F24F43;*/
 }
 
 
@@ -284,8 +285,7 @@ main a, .interests a, .sideprojects a {
 }
 
 a:hover {
-	border-bottom: none;
-	font-weight: 600;
+	text-decoration: line-through;
 }
 
 .galleryItem {
