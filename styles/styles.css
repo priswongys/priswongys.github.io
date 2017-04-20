@@ -20,7 +20,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	background: #fff;
 	padding: 15px 0 15px 0;
 	top:0;
-	box-shadow: 0px 0px 5px #9a9a9a;
+	box-shadow: 0 1px 4px 0 rgba(99,114,130,0.15);
 }
 
 .wrapper {
@@ -65,6 +65,7 @@ nav ul a, .socialicons i, .headwrapper a {
 
 .nav-actions a {
 	padding-left: 20px;
+	color: #505499;
 }
 
 .socialicons i {
@@ -113,28 +114,42 @@ section {
 .slider i {
 	font-size:50px;
 	color: #fff;
-	margin: 150px auto auto auto;
+	margin: 120px auto auto auto;
 }
 
 
 h1 {
-	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
 	line-height: 8px;
+<<<<<<< HEAD
 	font-size: 70px;
 	color: #1620ce;
+=======
+	font-size: 50px;
+	color: #fff;
+>>>>>>> origin/master
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 20px;
 	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 200;
 }
 
 h3 {
 	font-family: 'Roboto Mono', sans-serif;
+<<<<<<< HEAD
 /*	text-transform: uppercase;*/
 /*	color: #505499;*/
 	color: #111;
 /*	letter-spacing: 4px;*/
+=======
+	text-transform: uppercase;
+/*	color: #505499;*/
+	color: #fff;
+	letter-spacing: 5px;
+>>>>>>> origin/master
 	margin: 50px auto 5px auto;
 	font-size: 45px;
 /*	background: #505499;*/
@@ -148,15 +163,23 @@ h3 {
 }
 
 h4 {
+<<<<<<< HEAD
 	font-family: 'Roboto Mono', monospace;
 	color: #1620ce;
 	font-size: 22px;
 	font-weight: 800;
+=======
+	font-family: 'Roboto Mono', sans-serif;
+	color: #505499;
+	font-size: 22px;
+/*	letter-spacing: 1.5px;*/
+>>>>>>> origin/master
 	margin: 45px 0 0 auto;
+	font-weight: 800;
 }
 
 .experience .job h5 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
@@ -164,28 +187,37 @@ h4 {
 
 
 h5, h5 li {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	letter-spacing: 0.25px;
-	line-height: 1.45rem;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 16px;
+/*	letter-spacing: 0.25px;*/
+	line-height: 1.55rem;
 	color: #555;
 }
 
 
 p, li {
+<<<<<<< HEAD
 	font-family: 'Roboto Mono', monospace;
 	font-size: 15px;
 	line-height: 1.7rem;
 	color: #111;
+=======
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 13px;
+	line-height: 1.5rem;
+	color: #666667;
+	letter-spacing: 0.2px;
+	font-weight: 200;
+>>>>>>> origin/master
 }
 
 main a, .interests a, .sideprojects a {
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	font-size: 14px;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	color: #F24F43;
-	border-bottom: 1px solid #F24F43;
+	border-bottom: 2px solid #F24F43;
 }
 
 
