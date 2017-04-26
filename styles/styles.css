@@ -104,6 +104,7 @@ section {
 	margin: auto auto auto 300px;
 	color: #fff;
 	height: 30vh;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .slider {
@@ -133,14 +134,15 @@ h2 {
 }
 
 h3 {
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #111;
 	margin: 50px auto 5px auto;
-	font-size: 45px;
+	font-size: 30px;
 	display: inline-block;
 	padding: 5px 25px 5px 0px;
-	border-bottom: 5px solid #111;
-	line-height: 0.9;
+	letter-spacing: 0.2px;
+	border-bottom: 3px solid #111;
+	line-height: 1.1;
 }
 
 /*.portfolio h3 {
