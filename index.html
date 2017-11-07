@@ -311,5 +311,24 @@ $(document).on('click', '.headwrapper a', function(event){
   }}();
 </script>
 
+<script>
+	analytics.screen('Photo Feed', {
+  'Feed Type': 'private'
+});
+</script>
+
+<script>
+	analytics.identify();
+	analytics.page();
+</script>
+
+<script>
+	analytics.track('Clicked CTA', {
+  location: 'header',
+  type: 'button'
+});
+</script>
+
+
 </body>
 </html>
