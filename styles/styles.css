@@ -89,7 +89,7 @@ section {
 	text-align: center;
 	height: 100vh;
 	width: auto;
-	background: url(toronto.jpg);
+	background: url(mountain.jpg);
 	background-size: cover;
 	border: 50px solid #fff;
 	border-top: 0;
@@ -113,22 +113,29 @@ section {
 
 .slider i {
 	font-size:50px;
-	color: #fff;
-	margin: 120px auto auto auto;
+	color: #3c147c;
+	margin: 50px auto auto auto;
 }
+
 
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	line-height: 8px;
 	font-size: 60px;
 	color: #fff;
 	line-height:3rem;
+	margin-top:25px;
+	margin-bottom:25px;
+	display: inline-block;
+	padding: 15px 25px;
+	letter-spacing: 0.25rem;
+	text-transform: uppercase;
+	background:#5f3a96;
 }
 
 h2 {
 	font-size: 1.25rem;
-	color: #fff;
+	color: #3c147c;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 }
@@ -195,9 +202,9 @@ main a, .interests a, .sideprojects a {
 
 
 /*SECTION HEADER*/
-.banner {
+.bannerttc {
 	text-align: center;
-	height: 40vh;
+	height: 45vh;
 	width: auto;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.05)), url(ttc.jpg);
 	background-size: cover;
@@ -207,7 +214,7 @@ main a, .interests a, .sideprojects a {
 
 .bannerui {
 	text-align: center;
-	height: 40vh;
+	height: 45vh;
 	width: auto;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.05)), url(mockup.jpg);
 	background-size: cover;
@@ -215,32 +222,12 @@ main a, .interests a, .sideprojects a {
 	border-top: 0;
 }
 
-.bannerpw {
-	text-align: center;
-	height: 40vh;
-	width: auto;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.05)), url(weatherpanda.jpg);
-	background-size: cover;
-	border: 50px solid #fff;
-	border-top: 0;
-}
-
-.bannerc {
-	text-align: center;
-	height: 40vh;
-	width: auto;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.05)), url(ramen.jpg);
-	background-size: cover;
-	border: 50px solid #fff;
-	border-top: 0;
-}
-
-.banner h1, .bannerui h1, .bannerpw h1, .bannerc h1 {
+.bannerttc h1, .bannerui h1 {
 	transform: translateY(250%);
 	line-height: 45px;
 }
 
-.banner p, .bannerui p, .bannerpw p {
+.bannerttc p, .bannerui p {
 	transform: translateY(600%);
 	color: #fff;
 }
@@ -271,7 +258,7 @@ main a, .interests a, .sideprojects a {
 }
 
 .slider p {
-	color: #fff;
+	color: #3c147c;
 }
 
 .portfolio {
