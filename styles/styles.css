@@ -21,7 +21,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	background: #fff;
 	padding: 15px 0 15px 0;
 	top:0;
-	box-shadow: 0 1px 4px 0 rgba(99,114,130,0.15);
+	/* box-shadow: 0 1px 4px 0 rgba(99,114,130,0.15); */
 }
 
 .wrapper {
@@ -142,12 +142,12 @@ h3 {
 	padding: 5px 25px;
 	letter-spacing: 0.25rem;
 	text-transform: uppercase;
-	background:#505499;
+	background:#5f3a96;
 }
 
 h4 {
-	font-family: 'Montserrat', sans-serif;
-	color: #505499;
+	font-family: 'Montserrat:500', sans-serif;
+	color: #5f3a96;
 	font-size: 1.125rem;
 	margin: 45px 0 0 auto;
 	text-transform: uppercase;
@@ -163,7 +163,7 @@ h4 {
 
 
 h5, h5 li {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat:500', sans-serif;
 	font-size: 0.875rem;
 	line-height: 1.55rem;
 	color: #1b1b1b;
