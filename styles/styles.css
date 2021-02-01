@@ -18,7 +18,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	margin: 0 auto;
 	justify-content: space-between;
 	position: fixed;
-	background: #fff;
+background: #fff;
 	padding: 15px 0 15px 0;
 	top:0;
 	/* box-shadow: 0 1px 4px 0 rgba(99,114,130,0.15); */
@@ -66,7 +66,7 @@ nav ul a, .socialicons i, .headwrapper a {
 
 .nav-actions a {
 	padding-left: 20px;
-	color: #3a4896;
+	color: #006F8F;
 }
 
 .socialicons i {
@@ -78,7 +78,7 @@ nav ul a, .socialicons i, .headwrapper a {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 
@@ -89,19 +89,14 @@ h1, h2, h3, h4 {
 /*HEADER IMAGE============*/
 
 section {
-	text-align: center;
-	height: 100vh;
-	width: auto;
-	background: url(toronto.jpg);
-	background-size: cover;
-	border: 50px solid #fff;
-	border-top: 0;
+	height: 70vh;
+
 }
 
 .maintitle {
-	text-align: center;
 	margin: auto;
-	height: 30vh;
+	padding: 0 25px;
+	max-width: 1280px;
 }
 
 .slider {
@@ -109,30 +104,22 @@ section {
 	text-align: left;
 }
 
-.slider i {
-	font-size:50px;
-	color: #3a4896;
-	margin: 50px auto auto auto;
+.maintitle p {
+	font-size: 1.2rem;
 }
 
 
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 4rem;
 	font-weight:700;
-	color: #3a4896;
-	line-height:3rem;
-	margin-top:25px;
-	margin-bottom:25px;
-	padding: 15px 25px;
-	letter-spacing: 0.25rem;
-	text-transform: uppercase;
-	background:#fff;
+	color: #2D505D;
+	margin-bottom:10px;
 }
 
 h2 {
 	font-size: 1.25rem;
-	color: #3a4896;
+	color: #2D505D;
 	font-weight: 200;
 }
 
@@ -144,22 +131,17 @@ h3 {
 	padding: 5px 25px;
 	letter-spacing: 0.25rem;
 	text-transform: uppercase;
-	background:#3a4896;
+	background:#2D505D;
 }
 
 
 h4 {
-	font-family: 'Montserrat:500', sans-serif;
-	color: #3a4896;
-	font-size: 1.125rem;
+	font-family: 'Poppins', sans-serif;
+	color: #006F8F;
+	font-size: 1.5rem;
 	margin: 45px 0 0 auto;
-	text-transform: uppercase;
-	letter-spacing:0.1rem;
 }
 
-.slider p {
-	color: #3a4896;
-}
 
 .column .job h5 {
 	font-family: 'Open Sans', sans-serif;
@@ -170,10 +152,10 @@ h4 {
 
 
 h5, h5 li {
-	font-family: 'Montserrat:500', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 0.875rem;
 	line-height: 1.55rem;
-	color: #525464;
+	color: #060405;
 }
 
 
@@ -181,18 +163,18 @@ p, li {
 	font-family: 'Open Sans', monospace;
 	font-size: 15px;
 	line-height: 1.7rem;
-	color: #5c6079;
+	color: #060405;
 
 }
 
-main a, .interests a, .sideprojects a {
+main a, .interests a, .sideprojects a, footer a {
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
-	text-transform: uppercase;
-	color: #F24F43;
-	letter-spacing: 4px;
+	color: #006F8F;
 	font-weight: 800;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #006F8F;
 }
 
 
@@ -338,12 +320,19 @@ iframe {
 
 /*FOOTER*/
 
+footer {
+	display: flex;
+	text-align: left;
+	padding: 50px 0;
+}
+
 footer div {
+	width:90%;
+	margin: 0 auto;
+	padding: 0 25px;
+	max-width:1280px;
 	padding: 15px;
-	text-align: center;
-	margin: 150px auto 50px auto;
-/*	text-align: center;
-	border-top: 1px solid #eee;*/
+	text-align: left;
 }
 
 
@@ -385,6 +374,10 @@ footer div {
 	.column {
 		width:100%;
 	}
+
+	.maintitle {
+		padding: 0 50px;
+	}
 }
 
 
@@ -411,10 +404,9 @@ footer div {
 	.headwrapper p {
 		padding-left: 50px;
 	}
-}
 
-@media (max-width: 1200px) {
 	.maintitle {
-		margin:auto;
+		padding: 0 50px;
 	}
 }
+
