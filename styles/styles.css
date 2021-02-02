@@ -233,7 +233,7 @@ main a, .interests a, .sideprojects a, footer a {
 	width:100%;
 	height: 100%;
 	margin-top: 35px;
-	object-fit: fill;
+	object-fit: contain;
 }
 
 .description-right {
