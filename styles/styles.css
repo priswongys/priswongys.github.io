@@ -126,21 +126,17 @@ h2 {
 }
 
 h3 {
-	color: #fff;
+	color: #2D505D;
 	margin: 50px auto 5px auto;
-	font-size: 1.25rem;
+	font-size: 2rem;
 	display: inline-block;
-	padding: 5px 25px;
-	letter-spacing: 0.25rem;
-	text-transform: uppercase;
-	background:#2D505D;
 }
 
 
 h4 {
 	font-family: 'Poppins', sans-serif;
 	color: #006F8F;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	margin: 45px 0 0 auto;
 }
 
@@ -245,9 +241,9 @@ main a, .interests a, .sideprojects a, footer a {
 	display: block;
 }
 
-.portfolio h4 {
+/* .portfolio h4 {
 	margin-top: 25px;
-}
+} */
 
 a:hover {
 	border-bottom: none;
