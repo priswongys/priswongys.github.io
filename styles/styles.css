@@ -18,7 +18,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	margin: 0 auto;
 	justify-content: space-between;
 	position: fixed;
-background: #fff;
+	background: #fff;
 	padding: 15px 0 15px 0;
 	top:0;
 	/* box-shadow: 0 1px 4px 0 rgba(99,114,130,0.15); */
@@ -28,6 +28,8 @@ background: #fff;
 	width: 90%;
 	max-width:1280px;
 	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 
@@ -265,9 +267,11 @@ main, article {
 }
 
 .column {
-	width: 50%;
-	float: left;
-	padding: 25px
+	/* flex: 0 0 50%;
+	max-width: 50%; */
+	padding: 25px;
+	width:100%;
+	display: block;
 }
 
 article li, .job ul {
@@ -370,20 +374,21 @@ footer div {
 /*RESPONSIVE DESIGN STUFF*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-@media (max-width:768px) {
-	.column {
-		width:100%;
+@media (min-width: 961px) {
+	
+	.column{
+		flex: 0 0 50%;
+		max-width: 50%;
 	}
 
-	.maintitle {
-		padding: 0 50px;
-	}
 }
 
 
-@media (min-width: 100px) and (max-width: 960px){s
+@media (min-width: 100px) and (max-width: 960px){
 
-
+	.wrapper {
+		flex-flow: wrap;
+	}
 
 	.nav-actions ul.show {
 		display: flex;
@@ -405,8 +410,5 @@ footer div {
 		padding-left: 50px;
 	}
 
-	.maintitle {
-		padding: 0 50px;
-	}
 }
 
